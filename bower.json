@@ -1,0 +1,25 @@
+{
+  "name": "Yuan Qi's CV",
+  "version": "1.0.0",
+  "authors": [
+    "Yuan Qi"
+  ],
+  "description": "Web Developer",
+  "keywords": [
+    "CV",
+    "Web Front-end",
+    "Web Developer"
+  ],
+  "license": "MIT",
+  "homepage": "http://kisnows.com/cv",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pagepiling.js": "~0.0.9"
+  }
+}
