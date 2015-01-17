@@ -1,14 +1,13 @@
-var gulp = require('gulp');
-var less = require('gulp-less');
-var LessPluginAutoPrefix = require('less-plugin-autoprefix'),
-    autoprefix= new LessPluginAutoPrefix({browsers: ["last 2 versions"]});
+var gulp = require('gulp'),
+    less = require('gulp-less');
+// var LessPluginAutoPrefix = require('less-plugin-autoprefix'),
+//     autoprefix= new LessPluginAutoPrefix({browsers: ["last 2 versions"]});
 
-gulp.task('less',function(){
-	gulp.src('less/*.less')
-		.pipe(less({
-			plugins: "autoprefix"
-		}))
-		.pipe(gulp.dest('style'));
+// 定义 less 任务
+gulp.task('less', function() {
+    gulp.src('./less/main.less')
+        .pipe(less())
+        .pipe(gulp.dest('./style'));
 });
 
 gulp.task('depends', function() {
