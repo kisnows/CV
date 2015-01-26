@@ -53,23 +53,28 @@ a:hover {
   clear: both;
   visibility: hidden;
 }
+#pp-nav span,
+.pp-slidesNav span {
+  width: 6px;
+  height: 6px;
+}
 .page1 {
-  background-color: #ffffff;
+  background-color: #4afa78;
 }
 .page2 {
-  background-color: #1889c5;
+  background-color: #559adc;
 }
 .page3 {
-  background-color: #50c5e4;
+  background-color: #c96af3;
 }
 .page4 {
-  background-color: #22b573;
+  background-color: #df7d66;
 }
 .page5 {
-  background-color: #4bbfc3;
+  background-color: #facf44;
 }
-.page6 {
-  background-color: #ff3c85;
+h1 {
+  color: #f0f8ff;
 }
 #nav {
   background-color: #42474b;
