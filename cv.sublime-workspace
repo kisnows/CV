@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"li",
+				"lighten(color, 10%)"
+			],
+			[
+				"ligh",
+				" lightness(color)"
+			],
+			[
+				"s",
+				"saturate(color, 10%)"
+			],
+			[
 				"padd",
 				"padding"
 			],
@@ -276,10 +288,6 @@
 				"clearInterval  (function)"
 			],
 			[
-				"li",
-				"liBgColor"
-			],
-			[
 				"la",
 				"last-child  (pseudo-class)"
 			],
@@ -376,18 +384,50 @@
 	"buffers":
 	[
 		{
-			"file": "style/main.css",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1570,
-				"line_ending": "Unix"
+				"buffer_size": 1599,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 280,
+				"buffer_size": 266,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style/main.css",
+			"settings":
+			{
+				"buffer_size": 1505,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/color.less",
+			"settings":
+			{
+				"buffer_size": 638,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test.less",
+			"settings":
+			{
+				"buffer_size": 209,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/global.less",
+			"settings":
+			{
+				"buffer_size": 528,
 				"line_ending": "Windows"
 			}
 		}
@@ -395,16 +435,24 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 287.0,
 		"selected_items":
 		[
 			[
-				"theme",
-				"Themr: List themes"
+				"colorp",
+				"Color Picker"
+			],
+			[
+				"colop",
+				"Color Picker"
 			],
 			[
 				"pcrm",
 				"Package Control: Remove Package"
+			],
+			[
+				"theme",
+				"Themr: List themes"
 			],
 			[
 				"the",
@@ -821,134 +869,134 @@
 	],
 	"file_history":
 	[
-		"/D/Document/Workspace/cv/index.html",
-		"/D/Download/切换背景图像.html",
-		"/D/Document/Workspace/cv/less/font.less",
-		"/D/Document/Workspace/cv/less/nav.less",
-		"/D/Document/Workspace/cv/style/main.css",
-		"/D/Document/Workspace/cv/less/main.less",
-		"/D/Document/GitHub/front-end-practice/css3selecter/style.css",
-		"/D/Document/GitHub/front-end-practice/css3selecter/test.html",
-		"/C/Users/yq123_000.CHERRY/Desktop/制作导航菜单.html",
-		"/D/Document/Workspace/cv/test.html",
-		"/D/Document/Workspace/cv/package.json",
-		"/D/Document/Workspace/cv/gulpfile.js",
-		"/D/blog/source/_posts/前端自动化工具.md",
-		"/D/Document/GitHub/cv/scss/_settings.fonts.scss",
-		"/D/Document/Workspace/cv/js/main.js",
-		"/D/Document/Workspace/cv/less/global.less",
-		"/D/Document/Workspace/cv/less/color.less",
-		"/D/Document/GitHub/cv/js/index.js",
-		"/D/Document/Workspace/cv/node_modules/gulp-less/examples/gulpfile.js",
-		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/browser/runner-main-spec.js",
-		"/D/Document/GitHub/cv/gulpfile.js",
-		"/D/Document/Workspace/front-end/自定义jQuery扩展/setLiBg.js",
-		"/D/Document/Workspace/front-end/自定义jQuery扩展/nav.js",
-		"/D/Document/Workspace/front-end/自定义jQuery扩展/jCorner.js",
-		"/D/Document/Workspace/page_scroll/test/js/main.js",
-		"/D/Document/Workspace/page_scroll/test/style/main.css",
-		"/D/Document/Workspace/page_scroll/test/index.html",
-		"/D/Document/Workspace/cv/.gitignore",
-		"/D/Document/GitHub/cv/.gitignore",
-		"/D/Document/GitHub/cv/index.html",
-		"/D/Document/Workspace/cv/bower.json",
-		"/D/Document/Workspace/cv/node_modules/gulp/bin/gulp.js",
-		"/D/Document/GitHub/cv/bower.json",
-		"/D/Document/Workspace/page_scroll/test/test.html",
-		"/D/Document/GitHub/cv/cn.html",
-		"/D/Document/Workspace/cv/bower_components/jquery/.bower.json",
-		"/D/Document/Workspace/page_scroll/test/style/reset.css",
-		"/D/Document/Workspace/page_scroll/test/test1.html",
-		"/D/Document/Workspace/page_scroll/test/test.css",
-		"/D/Document/Workspace/page_scroll/test/test.js",
-		"/D/Document/GitHub/cv/vendor/jquery.pagepiling.js",
-		"/D/Download/pagePiling.js-master/bower.json",
-		"/D/Document/GitHub/front-end-practice/Fixed Site Navigations/demo.html",
-		"/D/Document/Workspace/page_scroll/test.html",
-		"/D/Document/Workspace/page_scroll/index.html",
-		"/C/Sublime Text Build 3065 x64/Data/Packages/User/Preferences.sublime-settings",
-		"/D/Document/Workspace/page_scroll/os_index.29175438.css",
-		"/D/Document/Workspace/page_scroll/iunios.indexU3.29175724.js",
-		"/C/Sublime Text Build 3065 x64/Data/Packages/User/SublimeLinter.sublime-settings",
-		"/D/blog/source/_posts/前端面试题解答.md",
-		"/D/blog/source/_posts/初试chrome扩展.md",
-		"/D/Document/Workspace/front-end/test/animate.html",
-		"/C/Users/yq123_000.CHERRY/Desktop/hosts",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/D/Document/Workspace/python/Python course/7-0.py",
-		"/D/blog/source/_posts/前端开发学习笔记二.md",
-		"/D/Document/Workspace/python/Python course/7-0-2.py",
-		"/D/Document/Workspace/python/Python course/7-0-1.py",
-		"/D/Document/Workspace/python/Python course/5-3.py",
-		"/D/blog/source/_posts/借助Hexo搭建博客.md",
-		"/D/blog/source/_posts/前端开发学习笔记四.md",
-		"/D/blog/source/_posts/前端开发学习笔记三.md",
-		"/D/blog/source/_posts/前端开发学习笔记五.md",
-		"/D/blog/source/_posts/前端开发学习笔记一.md",
-		"/D/blog/source/_posts/前端开发学习笔记六.md",
-		"/D/Document/Workspace/python/Python course/test.py",
-		"/D/Document/Workspace/front-end/test/zhihu2.html",
-		"/D/Document/Workspace/front-end/test/Baidu/stylesheet.css",
-		"/D/Document/Workspace/front-end/test/baidu/stes.css",
-		"/D/Document/Workspace/front-end/test/zhihu1.html",
-		"/D/Document/Workspace/front-end/test/zhihu3.html",
-		"/D/Document/GitHub/front-end-practice/shopping/js/main.js",
-		"/D/Document/Workspace/front-end/test/1.html",
-		"/D/Document/Workspace/front-end/test/2.html",
-		"/D/Document/Workspace/front-end/test/6.html",
-		"/D/Document/Workspace/front-end/test/7.html",
-		"/D/Document/Workspace/front-end/test/添加列表.html",
-		"/C/Users/yq123_000.CHERRY/Desktop/a.html",
-		"/D/blog/前端开发笔试面试题收集.md",
-		"/D/Document/Workspace/front-end/test/p.html",
-		"/D/Document/GitHub/chrome_onedriveChanger/popup.html",
-		"/C/Sublime Text Build 3065 x64/Data/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
-		"/D/Document/GitHub/chrome_onedriveChanger/popup.js",
-		"/D/backup/常用软件/Adobe Photoshop CC (64 Bit)/Adobe Photoshop CC (64 Bit)/Required/ADMUI3.fo好几个n",
-		"/C/wamp/bin/apache/apache2.4.9/conf/extra/httpd-vhosts.conf",
-		"/D/backup/常用软件/Adobe Photoshop CC (64 Bit)/命令行示例/静默安装.cmd",
-		"/C/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
-		"/C/wamp/wampmanager.ini",
-		"/C/wamp/wampmanager.tpl",
-		"/C/wamp/wampmanager.conf",
-		"/D/Document/GitHub/front-end-practice/shopping-page/js/products.js",
-		"/D/Document/GitHub/front-end-practice/shopping-page/js/home.js",
-		"/D/Document/GitHub/front-end-practice/shopping-page/js/main.js",
-		"/D/Document/GitHub/front-end-practice/shopping-page/template.html",
-		"/D/Document/GitHub/front-end-practice/shopping-page/js/screen.js",
-		"/D/Document/GitHub/front-end-practice/index.html",
-		"/D/blog/_config.yml",
-		"/D/Document/GitHub/front-end-practice/style.css",
-		"/D/blog/themes/yilia/_config.yml",
-		"/C/Users/yq123_000.CHERRY/OneDrive/文档/Page not found · GitHub.mht",
-		"/D/Download/Page not found · GitHub.htm",
-		"/C/Users/yq123_000.CHERRY/Desktop/Page not found · GitHub.html",
-		"/D/blog/source/about/index.md",
-		"/C/Users/yq123_000.CHERRY/Desktop/750.jpg",
-		"/D/blog/source/README.md",
-		"/D/blog/.deploy/CNAME",
-		"/D/blog/source/CNAME",
-		"/D/Document/Workspace/project/chrome/popup.html",
-		"/D/Document/Workspace/project/chrome/popup.css",
-		"/D/Document/Workspace/project/chrome/popup.js",
-		"/D/Document/Workspace/project/chrome/manifest.json",
-		"/D/Document/Workspace/project/manifest.json.template",
-		"/D/blog/scaffolds/post.md",
-		"/C/Users/yq123_000.CHERRY/OneDrive/文档/_config.yml",
-		"/D/blog/themes/jacman/_config.yml",
-		"/D/blog/themes/yilia/layout/_partial/article.ejs",
-		"/D/blog/themes/yilia/layout/_partial/post/duoshuo.ejs",
-		"/D/blog/themes/yilia/layout/_partial/footer.ejs",
-		"/D/blog/themes/yilia/layout/category.ejs",
-		"/D/blog/themes/yilia/layout/layout.ejs",
-		"/D/blog/themes/yilia/layout/page.ejs",
-		"/D/blog/themes/yilia/layout/post.ejs",
-		"/D/Document/GitHub/jQuery/README.md",
-		"/D/blog/themes/yilia/layout/_partial/post/share.ejs",
-		"/D/blog/source/categories/index.md",
-		"/D/Document/Workspace/人形日期swf.html",
-		"/D/Document/GitHub/cv/scss/_base.global.scss",
-		"/D/blog/themes/yilia/source/css/style.styl"
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/css/debug/import/test.css.map",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/css/debug/import/test.css",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/css/errors/imports/import-test.css",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/css/errors/imports/import-test.css.map",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/css/import/import-charset-test.css",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-max-data-size.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-handle-source-errors.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-pause.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-http-upload.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/test/globule_test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/test/findup-sync_test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-proxy-readable.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-pipe-resumes.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream.js",
+		"/D/Document/Workspace/cv/node_modules/less-plugin-autoprefix/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/text-stroke.json",
+		"/D/Document/Workspace/cv/node_modules/less-plugin-autoprefix/node_modules/autoprefixer-core/node_modules/postcss/node_modules/source-map/test/run-tests.js",
+		"/D/Document/Workspace/cv/node_modules/less-plugin-autoprefix/node_modules/autoprefixer-core/node_modules/postcss/node_modules/source-map/test/source-map/test-source-map-generator.js",
+		"/D/Document/Workspace/cv/node_modules/less-plugin-autoprefix/node_modules/autoprefixer-core/node_modules/postcss/node_modules/source-map/test/source-map/test-source-map-consumer.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/css/import/import-test-f.css.map",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/css/import/import-test-e.css.map",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/css/import/import-test-c.css.map",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/css/import/import-test-b.css.map",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/css/import/import-test-a.css.map",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/bl/test/basic-test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/test/cwd-test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test3.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test2.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test1.js",
+		"/D/Document/Workspace/cv/node_modules/less-plugin-autoprefix/node_modules/autoprefixer-core/node_modules/postcss/node_modules/source-map/test/source-map/test-source-node.js",
+		"/D/Document/Workspace/cv/node_modules/less-plugin-autoprefix/node_modules/autoprefixer-core/node_modules/postcss/node_modules/source-map/test/source-map/test-dog-fooding.js",
+		"/D/Document/Workspace/cv/node_modules/less-plugin-autoprefix/node_modules/autoprefixer-core/node_modules/postcss/node_modules/source-map/test/source-map/test-binary-search.js",
+		"/D/Document/Workspace/cv/node_modules/less-plugin-autoprefix/node_modules/autoprefixer-core/node_modules/postcss/node_modules/source-map/test/source-map/test-base64-vlq.js",
+		"/D/Document/Workspace/cv/node_modules/less-plugin-autoprefix/node_modules/autoprefixer-core/node_modules/postcss/node_modules/source-map/test/source-map/test-array-set.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-livereload/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/node_modules/readable-stream/node_modules/inherits/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/less/import/import-test-f.less",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/less/import/import-test-e.less",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/less/import/import-test-d.css",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/less/import/import-test-c.less",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/less/import/import-test-b.less",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/less/import/import-test-a.less",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/less/errors/imports/import-test.less",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/css/import/import-test-f.css",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/css/import/import-test-e.css",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/css/import/import-test-c.css",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/css/import/import-test-b.css",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/css/import/import-test-a.css",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/node_modules/readable-stream/node_modules/inherits/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/node_modules/readable-stream/node_modules/inherits/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/test/run-tests.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/source-map/test/run-tests.js",
+		"/D/Document/Workspace/cv/node_modules/less-plugin-autoprefix/node_modules/autoprefixer-core/node_modules/postcss/node_modules/source-map/test/source-map/test-util.js",
+		"/D/Document/Workspace/cv/node_modules/less-plugin-autoprefix/node_modules/autoprefixer-core/node_modules/postcss/node_modules/source-map/test/source-map/test-base64.js",
+		"/D/Document/Workspace/cv/node_modules/less-plugin-autoprefix/node_modules/autoprefixer-core/node_modules/postcss/node_modules/source-map/test/source-map/test-api.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/test/source-map/test-source-map-generator.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/test/source-map/test-source-map-consumer.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/source-map/test/source-map/test-source-map-generator.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/source-map/test/source-map/test-source-map-consumer.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/vinyl-fs/lib/dest/writeContents/writeStream.js",
+		"/D/Document/Workspace/cv/node_modules/less-plugin-autoprefix/node_modules/autoprefixer-core/node_modules/postcss/node_modules/source-map/build/test-suffix.js",
+		"/D/Document/Workspace/cv/node_modules/less-plugin-autoprefix/node_modules/autoprefixer-core/node_modules/postcss/node_modules/source-map/build/test-prefix.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-livereload/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/node_modules/inherits/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/test/source-map/test-source-node.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/test/source-map/test-dog-fooding.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/test/source-map/test-binary-search.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/test/source-map/test-base64-vlq.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/test/source-map/test-array-set.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/browser/css/console-errors/test-error.css.map",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/source-map/test/source-map/test-source-node.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/source-map/test/source-map/test-dog-fooding.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/source-map/test/source-map/test-binary-search.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/source-map/test/source-map/test-base64-vlq.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/source-map/test/source-map/test-array-set.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/node_modules/inherits/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/node_modules/inherits/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/node_modules/inflight/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/node_modules/inherits/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/node_modules/inherits/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-livereload/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/test/tests.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/test/tests.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/test/tests.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-livereload/node_modules/gulp-util/node_modules/dateformat/test/weekofyear/test_weekofyear.sh",
+		"/D/Document/Workspace/cv/node_modules/gulp-livereload/node_modules/gulp-util/node_modules/dateformat/test/weekofyear/test_weekofyear.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/test/source-map/test-util.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/test/source-map/test-base64.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/test/source-map/test-api.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/browser/less/console-errors/test-error.txt",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/browser/less/console-errors/test-error.less",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/browser/css/console-errors/test-error.css",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/less-test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/source-map/test/source-map/test-util.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/source-map/test/source-map/test-base64.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/source-map/test/source-map/test-api.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/node-uuid/test/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/node-uuid/test/test.html",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/bl/test/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/gulp-util/node_modules/dateformat/test/weekofyear/test_weekofyear.sh",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/gulp-util/node_modules/dateformat/test/weekofyear/test_weekofyear.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/gulp-util/node_modules/dateformat/test/weekofyear/test_weekofyear.sh",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/gulp-util/node_modules/dateformat/test/weekofyear/test_weekofyear.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-livereload/node_modules/gulp-util/node_modules/vinyl/node_modules/clone-stats/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-livereload/node_modules/gulp-util/node_modules/vinyl/node_modules/clone/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-livereload/node_modules/gulp-util/node_modules/through2/node_modules/xtend/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-livereload/node_modules/gulp-util/node_modules/dateformat/test/test_isoutcdatetime.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-livereload/node_modules/gulp-util/node_modules/dateformat/test/test_formats.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-livereload/node_modules/gulp-util/node_modules/dateformat/test/test_dayofweek.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/build/test-suffix.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/build/test-prefix.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/through2/node_modules/readable-stream/node_modules/inherits/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/less/debug/import/test.less",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/test/browser/test-runner-template.tmpl",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/source-map/build/test-suffix.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/source-map/build/test-prefix.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/tough-cookie/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/oauth-sign/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/json-stringify-safe/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/node_modules/request/node_modules/caseless/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/gulp-util/node_modules/vinyl/node_modules/clone-stats/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/gulp-util/node_modules/vinyl/node_modules/clone/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/gulp-util/node_modules/dateformat/test/test_isoutcdatetime.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/gulp-util/node_modules/dateformat/test/test_formats.js",
+		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/gulp-util/node_modules/dateformat/test/test_dayofweek.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/node_modules/clone-stats/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/node_modules/clone/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/xtend/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/vinyl-fs/node_modules/strip-bom/node_modules/is-utf8/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/test/fixtures/test.js",
+		"/D/Document/Workspace/cv/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/test/fixtures/test.coffee"
 	],
 	"find":
 	{
@@ -967,6 +1015,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"-bg-cl",
+			"file:///D:/Document/Workspace/cv/index.html",
+			"file:///D:/Document/Workspace/",
+			"p",
 			"写入正确选择器",
 			".clearfix li:nth-ch",
 			"slide",
@@ -1090,11 +1142,7 @@
 			" +",
 			"anwser",
 			"name='browser'",
-			"class",
-			";\n",
-			"btn",
-			"event.button",
-			"a"
+			"class"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1102,6 +1150,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"section",
 			"###",
 			"##",
@@ -1126,24 +1175,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "style/main.css",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1570,
+						"buffer_size": 1599,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								105,
-								105
+								243,
+								243
 							]
 						],
 						"settings":
@@ -1151,126 +1200,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Behave.tmTheme",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/main.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 280,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								280,
-								280
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1281,6 +1210,41 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1290,12 +1254,95 @@
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content"
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Behave.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
@@ -1305,7 +1352,363 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1390,
+								1390
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Behave.tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1936.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "less/color.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 638,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Behave.tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "test.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"_anf_new": "",
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Behave.tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "less/global.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								527,
+								527
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Behave.tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 792.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]

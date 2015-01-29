@@ -1,0 +1,19 @@
+.tag{
+	display: inline-block;
+	vertical-align: top;
+	zoom: 1; /* Fix for IE7 */
+	*display: inline; /* Fix for IE7 */
+	padding: 0 .6em;
+	background-color: fadeout(@cl-tag, 60%);
+	color: fadeout(@cl-ft-def, 60%);
+	border-radius: 4px;
+	margin: 0 .4em;
+}
+.expert{
+	background-color: @cl-tag;
+	color: @cl-ft-def;
+}
+.familiar{
+	background-color: fadeout(@cl-tag, 30%);
+	color: fadeout(@cl-ft-def, 10%);
+}

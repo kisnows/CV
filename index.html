@@ -1,57 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>原琪的简历</title>
-	<link rel="stylesheet" href="depends/jquery.pagepiling.css">
-	<link rel="stylesheet" href="style/main.css">
+    <meta charset="UTF-8">
+    <title>原琪的简历</title>
+    <meta name="viewport" content="width=100%, initial-scale=1">
+    <link rel="stylesheet" href="vendors/jquery.pagepiling.css">
+    <link rel="stylesheet" href="style/main.css">
 </head>
+
 <body>
-	<nav id="nav">
+    <!-- <nav id="nav">
 		<a href="#首页" class="name">原琪</a>
 		<ul>
 			<li><a href="#首页">首页</a></li>
 			<li><a href="#项目经历">项目经历</a></li>
 			<li><a href="#个人技能">个人技能</a></li>
 			<li><a href="#教育背景">教育背景</a></li>
-			<li><a href="#心仪职位">心仪职位</a></li>
 			<li><a href="#联系方式">联系方式</a></li>
 		</ul>
-	</nav>
-	<div id="pagepiling">
-		<section class="page1 section center">
-			<img src="img/Gravatar.jpg" alt="Gravatar">
-			<h1>原琪</h1>
-			<p></p>
-			<h2>前端开发攻城师</h2>
-		</section>
-		<section class="page2 section center">
-			<h1>项目经历</h1>
-			<ul>
-				<li>elefixed</li>
-				<li>hexo主题:kisnows</li>
-				<li>chrome插件:onedriveChanger</li>
-			</ul>
-		</section>
-		<section class="page3 section center">
-			<h1>个人技能</h1>
-			<p><span>HTML</span></p>
-			<p><span>CSS</span><span>LESS</span><span>Bootstrap</span></p>
-			<p><span>JavaScript</span><span>jQuery</span><span>Gulp</span></p>
-			<p><span>Python</span><span>PHP</span></p>
-			<p><span>PhotoShop</span></p>
-		</section>
-		<section class="page4 section center">
-			<h1>教育背景</h1>
-			<p>西安石油大学 本科</p>
-			<p>地球科学与工程学院 资源勘查工程专业</p>
-		</section>
-		<section class="page5 section center">
-			<h1>联系方式</h1>
-		</section>
-	</div>
-	<script src="depends/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="depends/jquery.pagepiling.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	</nav> -->
+  <div id="pagepiling">
+      <section class="page1 section center">
+          <img src="img/Gravatar.jpg" alt="Gravatar">
+          <h1>原琪</h1>
+          <h2><span>意向职位：</span>前端开发攻城师</h2>
+          <p><a href="mailto:yq12315@gmail.com">yq12315@gmail.com</a>
+          </p>
+      </section>
+      <section class="page2 section center">
+          <h1>项目经历</h1>
+          <div class="content">
+          	<div>
+	          	<h3></h3>
+          		<h3><i class="iconfont">&#xe607;</i> <a href="http://kisnows.com/eleFixed/" target="_blank"> elefixed</a></h3>
+          		<p>一款js插件，提供原生js和jQuery版，可以使一个元素在到达浏览器顶部时固定在那。</p>
+          	</div>
+          	<div>
+	          	<h3></h3>
+          		<h3><i class="iconfont">&#xe606;</i> <a href="https://github.com/kisnows/chrome_onedriveChanger" target="_blank">oneChanger</a></h3>
+          		<p>chrome扩展，能够将onedrive的图片链接转换为公开链接，使其可以作为博客图床使用</p>
+          	</div>
+          	<div>
+	          	<h3></h3>
+          		<h3><i class="iconfont">&#xe605;</i> <a href="http://kisnows.com/Front-end-practice/shopping-page/home.html" target="_blank">电商整站临摹</a></h3>
+          		<p>对一个电商网页的临摹，实现了基本效果。更多临摹<a href="http://kisnows.com/Front-end-practice/" target="_blank">点击这里</a></p>
+          	</div>
+          </div>
+      </section>
+      <section class="page3 section center">
+          <h1>个人技能</h1>
+          <p><span class="tag expert">HTML</span><span class="tag familiar">HTML5</span>
+          </p>
+          <p><span class="tag expert">CSS</span><span class="tag familiar">LESS</span><span class="tag">Bootstrap</span>
+          </p>
+          <p><span class="tag expert">JavaScript</span><span class="tag expert">jQuery</span><span class="tag familiar">Gulp</span>
+          </p>
+          <p><span class="tag familiar">Python</span><span class="tag">PHP</span><span class="tag">C</span>
+          </p>
+          <p><span class="tag familiar">PhotoShop</span>
+          </p>
+      </section>
+      <section class="page4 section center">
+          <h1>教育背景</h1>
+          <h3>西安石油大学 本科</h3>
+          <h4>地球科学与工程学院 资源勘查工程专业</h4>
+      </section>
+      <section class="page5 section center">
+          <h1>了解更多</h1>
+          <h3>Email:<a href="mailto:yq12315@gmail.com" "email me">email me</a></h3>
+          <h2><a href="http://kisnows.github.io" target="_blank">我的博客</a></h2>
+          <ul>
+              <li><a href="https://plus.google.com/u/0/100728118038257407694" class="google-plus" target="_blank"><i class="iconfont">&#xe604;</i></a></li>
+              <li><a href="http://weibo.com/q912654" class="weibo" target="_blank"><i class="iconfont">&#xe600;</i></a></li>
+              <li><a href="https://github.com/kisnows" class="github" target="_blank"><i class="iconfont">&#xe601;</i></a></li>
+              <li><a href="http://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" class="linkedin" target="_blank"><i class="iconfont">&#xe603;</i></a></li>
+              <li><a href="https://twitter.com/yq12315" class="twitter" target="_blank"><i class="iconfont">&#xe602;</i></a></li>
+          </ul>
+      </section>
+  </div>
+  <script src="vendors/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="vendors/jquery.pagepiling.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 </body>
+
 </html>

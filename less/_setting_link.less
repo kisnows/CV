@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+    color: @cl-link;
+    -webkit-transition: all .35s ease-in-out;
+       -moz-transition: all .35s ease-in-out;
+        -ms-transition: all .35s ease-in-out;
+         -o-transition: all .35s ease-in-out;
+            transition: all .35s ease-in-out;
+    &:hover{
+        display: inline-block;
+        zoom: 1; /* Fix for IE7 */
+        *display: inline; /* Fix for IE7 */
+        color: @cl-link-ho;
+        -webkit-transform: translate(0,-1px);
+           -moz-transform: translate(0,-1px);
+            -ms-transform: translate(0,-1px);
+             -o-transform: translate(0,-1px);
+                transform: translate(0,-1px);
+        text-shadow:0px 1px 1px @cl-sh,1px 2px 1px darken(@cl-sh, 10%);
+    }
+}

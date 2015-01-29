@@ -1,3 +1,14 @@
+div,
+p,
+ul,
+li,
+h1,
+h2,
+h3 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 ul {
   padding: 0;
   margin: 0;
@@ -6,37 +17,6 @@ ul li {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-h1 {
-  padding: 10px 10px;
-  margin: 0 0 10px 0;
-}
-h2 {
-  padding: 10px 10px;
-  margin: 0 0 10px 0;
-}
-h3 {
-  padding: 10px 10px;
-  margin: 0 0 10px 0;
-}
-h4 {
-  padding: 10px 10px;
-  margin: 0 0 10px 0;
-}
-h5 {
-  padding: 10px 10px;
-  margin: 0 0 10px 0;
-}
-h6 {
-  padding: 10px 10px;
-  margin: 0 0 10px 0;
-}
-a {
-  text-decoration: none;
-  color: #ffffff;
-}
-a:hover {
-  color: #9c58b6;
 }
 .center {
   text-align: center;
@@ -58,6 +38,21 @@ a:hover {
   width: 6px;
   height: 6px;
 }
+body {
+  color: #cfedee;
+}
+::selection {
+  color: #ffffff;
+  background-color: #000000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f0f8ff;
+}
 .page1 {
   background-color: #4afa78;
 }
@@ -68,19 +63,110 @@ a:hover {
   background-color: #c96af3;
 }
 .page4 {
-  background-color: #df7d66;
+  background-color: #e25c73;
 }
 .page5 {
   background-color: #facf44;
 }
-h1 {
-  color: #f0f8ff;
-}
 #nav {
-  background-color: #42474b;
+  background-color: #5a6166;
+}
+html {
+  font-size: 16px;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('http://at.alicdn.com/t/font_1422454150_5630665.eot');
+  src: url('http://at.alicdn.com/t/font_1422454150_5630665.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('http://at.alicdn.com/t/font_1422454150_5630665.woff') format('woff'), /* chrome、firefox */ url('http://at.alicdn.com/t/font_1422454150_5630665.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('http://at.alicdn.com/t/font_1422454150_5630665.svg#iconfont') format('svg');
+  
+  /* IE9*/
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont";
+  font-size: 35px;
+  font-style: normal;
 }
 body {
-  font: 400 1.1em/1.7 'LatoLatinBlack', "Microsoft YaHei", sans-serif;
+  font: 400 1.2em/1.5 George, "Microsoft YaHei", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: George, "Microsoft YaHei", sans-serif;
+  font-weight: 900;
+}
+h1 {
+  font-size: 3.5em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.2em;
+}
+h1 {
+  padding: 10px 10px;
+  margin: 0;
+  color: #f0f8ff;
+}
+h2 {
+  padding: 10px 10px;
+  margin: 0;
+  color: #f0f8ff;
+}
+h3 {
+  padding: 10px 10px;
+  margin: 0;
+  color: #f0f8ff;
+}
+h4 {
+  padding: 10px 10px;
+  margin: 0;
+  color: #f0f8ff;
+}
+h5 {
+  padding: 10px 10px;
+  margin: 0;
+  color: #f0f8ff;
+}
+h6 {
+  padding: 10px 10px;
+  margin: 0;
+  color: #f0f8ff;
+}
+h1,
+h2 {
+  text-shadow: 1px 2px 2px #68d7d0, 2px 4px 2px #40ccc3;
+}
+a {
+  text-decoration: none;
+  color: #ffffcc;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+a:hover {
+  display: inline-block;
+  zoom: 1;
+  /* Fix for IE7 */
+  *display: inline;
+  /* Fix for IE7 */
+  color: #ffff00;
+  -webkit-transform: translate(0, -1px);
+  -moz-transform: translate(0, -1px);
+  -ms-transform: translate(0, -1px);
+  -o-transform: translate(0, -1px);
+  transform: translate(0, -1px);
+  text-shadow: 0px 1px 1px #68d7d0, 1px 2px 1px #40ccc3;
 }
 #nav {
   position: fixed;
@@ -112,4 +198,60 @@ body {
   float: left;
   margin: 0 2%;
   line-height: 40px;
+}
+.page1 img {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  border: 6px solid #adfdc2;
+}
+.content {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1em;
+  position: relative;
+}
+.content div {
+  width: 30%;
+}
+.content div:first-child {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.content div:nth-child(2) {
+  margin: 0 auto;
+}
+.content div:last-child {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.tag {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  /* Fix for IE7 */
+  *display: inline;
+  /* Fix for IE7 */
+  padding: 0 .6em;
+  background-color: rgba(226, 92, 115, 0.4);
+  color: rgba(207, 237, 238, 0.4);
+  border-radius: 4px;
+  margin: 0 .4em;
+}
+.expert {
+  background-color: #e25c73;
+  color: #cfedee;
+}
+.familiar {
+  background-color: rgba(226, 92, 115, 0.7);
+  color: rgba(207, 237, 238, 0.9);
+}
+.page5 ul {
+  margin-top: 1em;
+}
+.page5 li {
+  display: inline-block;
+  margin: 0 .5em;
 }

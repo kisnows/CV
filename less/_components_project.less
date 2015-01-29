@@ -1,0 +1,44 @@
+// .page2 {
+// 	h3{
+// 		display: inline-block;
+// 		zoom: 1; /* Fix for IE7 */
+// 		*display: inline; /* Fix for IE7 */
+// 		margin:0;
+// 		width:30%;
+// 		text-align: right;
+// 		float:left;
+// 		// background-color: red;
+// 	}
+// 	p{
+// 		display: inline-block;
+// 		zoom: 1; /* Fix for IE7 */
+// 		*display: inline; /* Fix for IE7 */
+// 		margin:1em 0 0 0;
+// 		width:70%;
+// 		text-align: left;
+// 		float:left;
+// 		// background-color: blue;
+// 	}
+// }
+.content{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 1em;
+	position: relative;
+	div{
+		width: 30%;
+	}
+	div:first-child{
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	div:nth-child(2){
+		margin: 0 auto;
+	}
+	div:last-child{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+}
