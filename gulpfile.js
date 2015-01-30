@@ -20,4 +20,4 @@ gulp.task('watch',function(){
 	gulp.watch('less/*.less',['less']);
 });
 
-gulp.task('default',['less','depends','watch']);
+gulp.task('default',['less','vendors','watch']);
