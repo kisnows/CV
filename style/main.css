@@ -239,7 +239,7 @@ a:hover {
     line-height: 1.2;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   body {
     font-size: 12px;
   }
