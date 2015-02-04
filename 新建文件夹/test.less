@@ -1,9 +1,0 @@
-@colors: 'green', 'red', 'blue';
-
-.example_module {
-    .-(@i: length(@colors)) when (@i > 0) {
-        @name: e(extract(@colors, @i));
-        &.@{name} {background: @@name}
-        .-((@i - 1));
-    } .-;
-}

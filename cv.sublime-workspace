@@ -856,11 +856,11 @@
 	"expanded_folders":
 	[
 		"/D/Document/Workspace/cv",
-		"/D/Document/Workspace/cv/less",
 		"/D/Document/Workspace/cv/style"
 	],
 	"file_history":
 	[
+		"/D/Document/Workspace/cv/less/_mobile.less",
 		"/D/Document/Workspace/cv/index.html",
 		"/D/Document/GitHub/front-end-practice/Fixed Site Navigations/demo.html",
 		"/D/Document/Workspace/cv/less/main.less",
@@ -877,7 +877,6 @@
 		"/D/Document/Workspace/cv/vendors/jquery.pagepiling.min.js",
 		"/D/Document/Workspace/cv/node_modules/less-plugin-autoprefix/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/png-alpha.json",
 		"/D/Document/Workspace/cv/package.json",
-		"/D/Document/Workspace/cv/less/_mobile.less",
 		"/D/Document/Workspace/cv/less/_setting_font.less",
 		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/.bin/lessc.cmd",
 		"/D/Document/Workspace/cv/node_modules/gulp-less/node_modules/less/bin/lessc",
