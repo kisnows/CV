@@ -2,21 +2,21 @@
 @cl-pg1-bg:     #4AFA78;
 @cl-pg2-bg:     #559ADC;
 @cl-pg3-bg:     #C96AF3;
-@cl-pg4-bg:     lighten(#DC3955,8%);
+@cl-pg4-bg:     #DC3955;
 @cl-pg5-bg:     #FACF44;
 
 // 字体颜色
 @cl-ft-ti:      #F0F8FF;                    // 标题字体颜色
-@cl-ft-def:     #CFEDEE;                    // 默认字体颜色
+@cl-ft-def:     #FFFFFF;                    // 默认字体颜色
 @cl-nv:         lighten(#42474B, 10%);      // 导航栏背景颜色
-@cl-link:       lighten(#FFFF00, 40%);      // 链接默认颜色
+@cl-link:       lighten(#4AFA78, 30%);      // 链接默认颜色
 @cl-link-ho:    #FFFF00;                    // 链接hover时的颜色
 
 // 字体阴影颜色
 @cl-sh:			#68D7D0;
 
 // 标签颜色
-@cl-tag:        @cl-pg4-bg;
+@cl-tag:        @cl-pg5-bg;
 
 body{
 	color: @cl-ft-def;
@@ -30,22 +30,27 @@ body{
 h1,h2,h3,h4,h5,h6{
 	color: @cl-ft-ti;
 }
-
-.page1{
-    background-color: @cl-pg1-bg;
-}
-.page2{
-    background-color: @cl-pg2-bg;
-}
-.page3{
-    background-color: @cl-pg3-bg;
-}
-.page4{
+.section{
     background-color: @cl-pg4-bg;
 }
-.page5{
-    background-color: @cl-pg5-bg;
-}
+// .page1,.page2,.page3,.page4,.page5{
+//     background-color: @cl-pg2-bg;
+// }
+// .page1{
+//     background-color: @cl-pg1-bg;
+// }
+// .page2{
+//     background-color: @cl-pg2-bg;
+// }
+// .page3{
+//     background-color: @cl-pg3-bg;
+// }
+// .page4{
+//     background-color: @cl-pg4-bg;
+// }
+// .page5{
+//     background-color: @cl-pg5-bg;
+// }
 // .page(6);
 // .page(@n,@i:1) when (@i<=@n){
 //  .page@{i}{
