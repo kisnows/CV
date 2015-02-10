@@ -22,7 +22,7 @@ $(document).ready(function() {
     $(window).bind('mousewheel', function() {
         var tags = $('.page3 .tag');
         if ($('.page3').hasClass('active')) {
-            console.log(tags)
+            // console.log(tags)
             for (var i = tags.length - 1; i >= 0; i--) {
                 $(tags[i]).animate({
                     padding: '0 .8em'
